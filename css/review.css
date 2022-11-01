@@ -1,0 +1,144 @@
+
+
+/*gallery styles*/
+
+#gallery{
+  background: rgb(222, 222, 222);
+  }
+
+
+.gallery-heading {
+    padding-bottom: 30px;
+}
+.gallery-heading h1{
+ text-align: center;
+ font-weight: 300;
+
+}
+.overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.thumbnails:hover{
+    transform: translateY(-4px) ;
+}
+.image{
+    display: block;
+    width: 100%;
+}
+.caption{
+    font-size: 2rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.img-container:hover .overlay{
+    opacity: 1;
+}
+
+
+.customer-review{
+  background: rgb(222, 222, 222);
+  }
+  
+  .review-header h1{
+    letter-spacing: 3px;
+    font-weight: 300;
+  }
+  .review-header h5{
+    font-weight: 100;
+  }
+  .review-header h1,h5{
+   text-align: center;
+   color: #4d4f56;
+  }
+  
+  .section-header{
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 900;
+   
+  }
+  
+  .section-header::after{
+    content:"";
+    height: 3px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left:calc(50% -100px);
+    
+  }
+  
+  .section-header span{
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  
+  .testimonials{
+  max-width: 800px;
+  
+  padding: 0 15x 50px;
+  margin: 0 auto 80px auto;
+  }
+  
+  .single-item{
+    background: rgb(222, 222, 222);
+    color:#111;
+    padding: 15px;
+    margin: 15px 10px;
+    border: 1px solid black;;
+ 
+   
+  }
+  .profile{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .img-area{
+    margin: 8px 15px 15px 15px;
+  }
+  .img-area img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  
+   
+  }
+  .content{
+    font-size: 18px;
+  }
+  .content p{
+  
+    text-align: justify;
+  
+  }
+  .content p span{
+    font-size: 48px;
+    margin-right: 20px;
+    
+  }
+  
+  
+ 
+  
+  .carousel-control-prev,.carousel-control-next{
+    background: transparent;
+  }
+  .visually-hidden{
+    display: none;
+  }
+  
